@@ -1,0 +1,36 @@
+body {
+  height: 100vh;
+  background: black;
+  font-family: "Courier New", Courier, monospace;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 138px;
+  height: 138px;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.logo span {
+  position: absolute;
+  left: 50%;
+  transform-origin: 0 69px;
+  color: white;
+}
+
+.active {
+  color: aqua;
+}
+
+.logo p {
+  position: absolute;
+  left: 49.9%;
+  top: 45%;
+  transform: translate(-50%, 50%);
+  font-size: 1.5rem;
+  color: white;
+}
