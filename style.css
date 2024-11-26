@@ -19,7 +19,7 @@ body {
   position: absolute;
   left: 50%;
   transform-origin: 0 69px;
-  color: white;
+  color: #FF5E2C;
 }
 
 .active {
@@ -29,8 +29,8 @@ body {
 .logo p {
   position: absolute;
   left: 49.9%;
-  top: 45%;
+  top: 44%;
   transform: translate(-50%, 50%);
   font-size: 1.5rem;
-  color: white;
+  color: rgb(10, 248, 208);
 }
